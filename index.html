@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cocoa talk</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <i class="fa-solid fa-link"></i>
+            <span>27%</span>
+            <i class="fa-solid fa-battery-quarter fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+        <header class="welcome-header">
+            <h1 class="welcome-header__title">마고톡을 온 걸 환영합니다</h1>
+            <p class="welcome-header__text">마고톡을 이용해서 선후배와 소통해보세요!</p>
+        </header>
+        <!--get요청을 서버만들어서 post로 바꿔줘야함-->
+        <form action="friends.html" method="get" id="login-form">
+            <input name="username" required type="text" placeholder="학교이메일 또는 학번을 입력해주세요"/>
+            <input name="password" required type="password" placeholder="비밀번호를 입력해주세요">
+            <input type="submit" value="로그인"/>
+            <a href="#">비밀번호 찾기</a>
+        </form>
+
+    <script src="https://kit.fontawesome.com/dd551655ab.js" crossorigin="anonymous"></script>
+</body>
+</html>
